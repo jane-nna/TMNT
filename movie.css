@@ -1,0 +1,169 @@
+body{
+    background-image: url("background.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    background-repeat: repeat-x;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+
+
+#movie-title {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#main-container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid gray;
+	background-color: #A2B964;
+	overflow: hidden;
+}
+
+#review-section {
+	width: 550px;
+	background-image: url(background.png);
+}
+
+#rating {
+	height: 90px;
+	
+	margin-top: auto;
+	margin-bottom: auto;
+    background-image: url("rottenbackground.png");
+    background-repeat: repeat-x;
+    display: flex; 
+}
+
+#percentage{
+    font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+#review-count{
+    font-size: 8pt;
+    color: white;
+    display: block;
+    text-align: right;
+    bottom: 25px;
+}
+
+
+#rating img {
+	float: left;
+	padding-right: 5px;
+}
+
+.review-column {
+	float: left;
+	width: 50%;
+}
+
+#clear-columns {
+	clear:both;
+}
+.critic-review {
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px solid gray;
+	padding: 8px;
+	margin: 8px;
+	overflow: auto; /* Enables proper display of long content */
+}
+
+.critic-review img {
+	float: left;
+	padding-right: 5px;
+}
+
+.review-author {
+	padding-bottom: 20pt;
+	padding-left: 10px;
+}
+
+.review-author img {
+	float: left;
+	padding-right: 5px;
+}
+
+.publication {
+    font-style: italic; /* Applies italic style to publication names */
+}
+
+#sidebar {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+	font-family: Arial, sans-serif;
+    font-size: 8px;
+}
+
+#overview-img {
+	width: 100%; /* Ensures the overview image scales to fit sidebar */
+}
+
+dl {
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+dt {
+	margin-top: 10px;
+    font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+dd, li {
+	line-height: 10pt; /* Spacing between list items */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, #main-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#validator {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+#validator img {
+    width: 100px;
+    height: auto;
+}
+
+
+#footer {
+	clear: both;
+	text-align: center;
+    background-color: #A2B964;
+}
